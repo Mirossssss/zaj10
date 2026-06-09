@@ -39,7 +39,7 @@ cArgs:
 ----
     year (int): The year for which to calculate the balance.
 
-Returns
+Returns:
 -------
     float: The annual balance.
 
@@ -49,6 +49,11 @@ Highlights
 - Focused manager API for common settlement and validation operations.
 - Clean separation between data schema and business rules.
 - Ready for automatic API documentation with ``pdoc``.
+
+Example:
+-------
+    >>> manager = Manager()
+    >>> manager.calculate_annual_balance(year=2023)
 
 Authors
 ------
